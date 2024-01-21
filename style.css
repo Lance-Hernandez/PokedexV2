@@ -34,7 +34,7 @@ main {
     justify-content: space-between;
 }
 
-#searchInput {
+#pokemonName {
     width: 295px;
     border: 0;
     box-shadow:  -2px 0 0 0 darkgrey,
@@ -90,8 +90,8 @@ main {
 }
 
 .pokeSprite {
-    width: 125px;
-    height: 125px;
+    min-width: 125px;
+    min-height: 125px;
     box-shadow:  -2px 0 0 0 black,
                  2px 0 0 0 black,
                  0 -2px 0 0 black,
