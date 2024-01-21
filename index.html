@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="pokedexHeader">
+            <h1 class="welcomeText">Welcome to the world of Pokémon!</h1>
+            <div class="searchBar">
+                <input type="text" name="searchInput" id="searchInput" placeholder="Choose your Pokémon">
+                <div class="searchIcons">
+                    <!-- Icons from https://pixelarticons.com/free/ -->
+                    <!-- Search Button -->
+                    <svg width="20" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M6 2h8v2H6V2zM4 6V4h2v2H4zm0 8H2V6h2v8zm2 2H4v-2h2v2zm8 0v2H6v-2h8zm2-2h-2v2h2v2h2v2h2v2h2v-2h-2v-2h-2v-2h-2v-2zm0-8h2v8h-2V6zm0 0V4h-2v2h2z" fill="currentColor"/> </svg>
+                    <!-- Random Button -->
+                    <svg width="20" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M16 2h-2v2h2v2H4v2H2v5h2V8h12v2h-2v2h2v-2h2V8h2V6h-2V4h-2V2zM6 20h2v2h2v-2H8v-2h12v-2h2v-5h-2v5H8v-2h2v-2H8v2H6v2H4v2h2v2z" fill="currentColor"/> </svg>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pokedexEntry">
+            <div class="pokedexEntryWrap">
+                <div class="pokeInfoHeader">
+                    <div class="pokeSpriteContainer">
+                        <img class="pokeSprite" src="" alt="">
+                    </div>
+                    <div class="pokeInfoContainer">
+                        <div class="pokeNameIDContainer">
+                            <p class="dexHeading">Pikachu</p>
+                            <p class="pokeID">#025</p>
+                        </div>
+                        <p class="pokeClassification">Mouse Pokémon</p>
+                        <div class="bodyContainer">
+                            <p class="height">Height: 1'04"</p>
+                            <p class="weight">Weight: 13.0lbs</p>
+                            <p class="ability">Ability: Static</p>
+                        </div>
+                        <div class="typeContainer">
+                            <p class="type">ELECTRIC</p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="pokeDesc">
+                    <p class="dexHeading">Pokédex entry</p>
+                    <p class="pokeDescription">It lives in forests with others. It stores electricity in the pouches on its cheeks.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="nextPoke">
+            <!-- Left Icon -->
+            <svg width="24" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M20 11v2H8v2H6v-2H4v-2h2V9h2v2h12zM10 7H8v2h2V7zm0 0h2V5h-2v2zm0 10H8v-2h2v2zm0 0h2v2h-2v-2z" fill="currentColor"/> </svg>
+            <!-- Right Icon -->
+            <svg width="24" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M4 11v2h12v2h2v-2h2v-2h-2V9h-2v2H4zm10-4h2v2h-2V7zm0 0h-2V5h2v2zm0 10h2v-2h-2v2zm0 0h-2v2h2v-2z" fill="currentColor"/> </svg>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
